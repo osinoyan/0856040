@@ -25,7 +25,7 @@ class PriorityQueueTest {
 
     static Stream<Object[]> arrayStream(){
         return Stream.of(
-                new Object[]{ new Integer[][] {{9, 4, 5, 3}, {3, 4, 5, 99999999}} },
+                new Object[]{ new Integer[][] {{9, 4, 5, 3}, {3, 4, 5, 9}} },
                 new Object[]{ new Integer[][] {{6, 8, 9, 2}, {2, 6, 8, 9}} },
                 new Object[]{ new Integer[][] {{0, 8, 1, 5}, {0, 1, 5, 8}} },
                 new Object[]{ new Integer[][] {{6, 7, 5, 7}, {5, 6, 7, 7}} },
